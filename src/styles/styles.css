@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  background-image: url(../background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: rgb(238, 255, 0);
+  font-size: 1.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.986);
+}
+.first-but {
+  /* background-color: blue; */
+  width: 75px;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 10px;
+  /* border: 0px solid white; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+  font-style: italic;
+  background: -moz-linear-gradient(#f2f2f2, blue, blue, blue);
+  background: -webkit-gradient(linear, 0 0, 0  100%, from(#f2f2f2), to(blue), color-stop(0.5, blue), color-stop(0.5,  blue));
+  color: #fff;
+  /* border: 2px solid  blue; */
+}
+.second-but {
+  /* background-color: green; */
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  /* color: white; */
+  border-radius: 10px;
+  /* border: 0px solid white; */
+  font-style: italic;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+  background: -moz-linear-gradient(#f2f2f2, green, green, green);
+  background: -webkit-gradient(linear, 0 0, 0  100%, from(#f2f2f2), to(green), color-stop(0.5, green), color-stop(0.5,  green));
+  color: #fff;
+}
+.third-but {
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  /* color: white; */
+  border-radius: 10px;
+  /* border: 0px solid white; */
+  font-style: italic;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+  background: -moz-linear-gradient(#f2f2f2, red, red, red);
+  background: -webkit-gradient(linear, 0 0, 0  100%, from(#f2f2f2), to(red), color-stop(0.5, red), color-stop(0.5,  red));
+  color: #fff;
+}
